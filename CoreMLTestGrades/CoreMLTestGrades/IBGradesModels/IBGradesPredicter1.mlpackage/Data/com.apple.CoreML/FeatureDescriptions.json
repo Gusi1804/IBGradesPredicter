@@ -1,0 +1,21 @@
+{
+  "Outputs" : {
+    "Grade" : {
+      "MLFeatureShortDescription" : "--"
+    }
+  },
+  "Inputs" : {
+    "Subject" : {
+      "MLFeatureShortDescription" : "--"
+    },
+    "Level" : {
+      "MLFeatureShortDescription" : "--"
+    },
+    "Predicted grade" : {
+      "MLFeatureShortDescription" : "--"
+    }
+  },
+  "TrainingInputs" : {
+
+  }
+}

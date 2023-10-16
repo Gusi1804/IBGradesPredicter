@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA491966280BAA7100829B05 /* IBGrades.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA491965280BAA7100829B05 /* IBGrades.swift */; };
+		CA49196C280BABD900829B05 /* IBGradesPredicter1.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = CA49196B280BABD900829B05 /* IBGradesPredicter1.mlpackage */; };
+		CA491973280C7D6800829B05 /* IBGradesPredicter2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CA49196F280C7D6800829B05 /* IBGradesPredicter2.mlmodel */; };
+		CA491974280C7D6800829B05 /* IBGradesPredicter4.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CA491970280C7D6800829B05 /* IBGradesPredicter4.mlmodel */; };
+		CA491975280C7D6800829B05 /* IBGradesPredicter3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CA491971280C7D6800829B05 /* IBGradesPredicter3.mlmodel */; };
+		CA491976280C7D6800829B05 /* IBGradesPredicter5.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CA491972280C7D6800829B05 /* IBGradesPredicter5.mlmodel */; };
+		CA491978280CCA1200829B05 /* IBGradesPredicter6.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CA491977280CCA1200829B05 /* IBGradesPredicter6.mlmodel */; };
+		CAB836FD2808F7C500D14384 /* CoreMLTestGradesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB836FC2808F7C500D14384 /* CoreMLTestGradesApp.swift */; };
+		CAB836FF2808F7C500D14384 /* MyGrades.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB836FE2808F7C500D14384 /* MyGrades.swift */; };
+		CAB837012808F7C600D14384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB837002808F7C600D14384 /* Assets.xcassets */; };
+		CAB837042808F7C600D14384 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB837032808F7C600D14384 /* Preview Assets.xcassets */; };
+		CAB8370E2808F7C600D14384 /* CoreMLTestGradesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB8370D2808F7C600D14384 /* CoreMLTestGradesTests.swift */; };
+		CAB837182808F7C600D14384 /* CoreMLTestGradesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB837172808F7C600D14384 /* CoreMLTestGradesUITests.swift */; };
+		CAB8371A2808F7C600D14384 /* CoreMLTestGradesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB837192808F7C600D14384 /* CoreMLTestGradesUITestsLaunchTests.swift */; };
+		CAB8372B2808F8A900D14384 /* GradesPredicter.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CAB8372A2808F8A900D14384 /* GradesPredicter.mlmodel */; };
+		CAB8372D2808F8C100D14384 /* Grade.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB8372C2808F8C100D14384 /* Grade.swift */; };
+		CAB8372F2808F8CB00D14384 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB8372E2808F8CB00D14384 /* ViewModel.swift */; };
+		CAB837312809039100D14384 /* GradesPredicter2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CAB837302809039100D14384 /* GradesPredicter2.mlmodel */; };
+		CAB837332809052400D14384 /* GradesPredicter3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CAB837322809052400D14384 /* GradesPredicter3.mlmodel */; };
+		CAB83735280907C700D14384 /* GradesPredicter1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CAB83734280907C700D14384 /* GradesPredicter1.mlmodel */; };
+		CAB8373728090D6900D14384 /* GradesPredicter1-1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CAB8373628090D6900D14384 /* GradesPredicter1-1.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAB8370A2808F7C600D14384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB836F12808F7C500D14384 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAB836F82808F7C500D14384;
+			remoteInfo = CoreMLTestGrades;
+		};
+		CAB837142808F7C600D14384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB836F12808F7C500D14384 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAB836F82808F7C500D14384;
+			remoteInfo = CoreMLTestGrades;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA491965280BAA7100829B05 /* IBGrades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBGrades.swift; sourceTree = "<group>"; };
+		CA49196B280BABD900829B05 /* IBGradesPredicter1.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = IBGradesPredicter1.mlpackage; sourceTree = "<group>"; };
+		CA49196F280C7D6800829B05 /* IBGradesPredicter2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = IBGradesPredicter2.mlmodel; sourceTree = "<group>"; };
+		CA491970280C7D6800829B05 /* IBGradesPredicter4.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = IBGradesPredicter4.mlmodel; sourceTree = "<group>"; };
+		CA491971280C7D6800829B05 /* IBGradesPredicter3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = IBGradesPredicter3.mlmodel; sourceTree = "<group>"; };
+		CA491972280C7D6800829B05 /* IBGradesPredicter5.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = IBGradesPredicter5.mlmodel; sourceTree = "<group>"; };
+		CA491977280CCA1200829B05 /* IBGradesPredicter6.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = IBGradesPredicter6.mlmodel; sourceTree = "<group>"; };
+		CAB836F92808F7C500D14384 /* CoreMLTestGrades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLTestGrades.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB836FC2808F7C500D14384 /* CoreMLTestGradesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLTestGradesApp.swift; sourceTree = "<group>"; };
+		CAB836FE2808F7C500D14384 /* MyGrades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGrades.swift; sourceTree = "<group>"; };
+		CAB837002808F7C600D14384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAB837032808F7C600D14384 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAB837092808F7C600D14384 /* CoreMLTestGradesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMLTestGradesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB8370D2808F7C600D14384 /* CoreMLTestGradesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLTestGradesTests.swift; sourceTree = "<group>"; };
+		CAB837132808F7C600D14384 /* CoreMLTestGradesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMLTestGradesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB837172808F7C600D14384 /* CoreMLTestGradesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLTestGradesUITests.swift; sourceTree = "<group>"; };
+		CAB837192808F7C600D14384 /* CoreMLTestGradesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLTestGradesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CAB8372A2808F8A900D14384 /* GradesPredicter.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GradesPredicter.mlmodel; sourceTree = "<group>"; };
+		CAB8372C2808F8C100D14384 /* Grade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grade.swift; sourceTree = "<group>"; };
+		CAB8372E2808F8CB00D14384 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CAB837302809039100D14384 /* GradesPredicter2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GradesPredicter2.mlmodel; sourceTree = "<group>"; };
+		CAB837322809052400D14384 /* GradesPredicter3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GradesPredicter3.mlmodel; sourceTree = "<group>"; };
+		CAB83734280907C700D14384 /* GradesPredicter1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GradesPredicter1.mlmodel; sourceTree = "<group>"; };
+		CAB8373628090D6900D14384 /* GradesPredicter1-1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "GradesPredicter1-1.mlmodel"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAB836F62808F7C500D14384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB837062808F7C600D14384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB837102808F7C600D14384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA49196D280C7D1400829B05 /* MyGradesModels */ = {
+			isa = PBXGroup;
+			children = (
+				CAB8372A2808F8A900D14384 /* GradesPredicter.mlmodel */,
+				CAB83734280907C700D14384 /* GradesPredicter1.mlmodel */,
+				CAB8373628090D6900D14384 /* GradesPredicter1-1.mlmodel */,
+				CAB837302809039100D14384 /* GradesPredicter2.mlmodel */,
+				CAB837322809052400D14384 /* GradesPredicter3.mlmodel */,
+			);
+			path = MyGradesModels;
+			sourceTree = "<group>";
+		};
+		CA49196E280C7D2100829B05 /* IBGradesModels */ = {
+			isa = PBXGroup;
+			children = (
+				CA49196B280BABD900829B05 /* IBGradesPredicter1.mlpackage */,
+				CA49196F280C7D6800829B05 /* IBGradesPredicter2.mlmodel */,
+				CA491971280C7D6800829B05 /* IBGradesPredicter3.mlmodel */,
+				CA491970280C7D6800829B05 /* IBGradesPredicter4.mlmodel */,
+				CA491972280C7D6800829B05 /* IBGradesPredicter5.mlmodel */,
+				CA491977280CCA1200829B05 /* IBGradesPredicter6.mlmodel */,
+			);
+			path = IBGradesModels;
+			sourceTree = "<group>";
+		};
+		CAB836F02808F7C500D14384 = {
+			isa = PBXGroup;
+			children = (
+				CAB836FB2808F7C500D14384 /* CoreMLTestGrades */,
+				CAB8370C2808F7C600D14384 /* CoreMLTestGradesTests */,
+				CAB837162808F7C600D14384 /* CoreMLTestGradesUITests */,
+				CAB836FA2808F7C500D14384 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAB836FA2808F7C500D14384 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAB836F92808F7C500D14384 /* CoreMLTestGrades.app */,
+				CAB837092808F7C600D14384 /* CoreMLTestGradesTests.xctest */,
+				CAB837132808F7C600D14384 /* CoreMLTestGradesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAB836FB2808F7C500D14384 /* CoreMLTestGrades */ = {
+			isa = PBXGroup;
+			children = (
+				CAB836FC2808F7C500D14384 /* CoreMLTestGradesApp.swift */,
+				CA491965280BAA7100829B05 /* IBGrades.swift */,
+				CAB836FE2808F7C500D14384 /* MyGrades.swift */,
+				CAB8372C2808F8C100D14384 /* Grade.swift */,
+				CAB8372E2808F8CB00D14384 /* ViewModel.swift */,
+				CAB837002808F7C600D14384 /* Assets.xcassets */,
+				CA49196D280C7D1400829B05 /* MyGradesModels */,
+				CA49196E280C7D2100829B05 /* IBGradesModels */,
+				CAB837022808F7C600D14384 /* Preview Content */,
+			);
+			path = CoreMLTestGrades;
+			sourceTree = "<group>";
+		};
+		CAB837022808F7C600D14384 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CAB837032808F7C600D14384 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAB8370C2808F7C600D14384 /* CoreMLTestGradesTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAB8370D2808F7C600D14384 /* CoreMLTestGradesTests.swift */,
+			);
+			path = CoreMLTestGradesTests;
+			sourceTree = "<group>";
+		};
+		CAB837162808F7C600D14384 /* CoreMLTestGradesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAB837172808F7C600D14384 /* CoreMLTestGradesUITests.swift */,
+				CAB837192808F7C600D14384 /* CoreMLTestGradesUITestsLaunchTests.swift */,
+			);
+			path = CoreMLTestGradesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAB836F82808F7C500D14384 /* CoreMLTestGrades */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB8371D2808F7C600D14384 /* Build configuration list for PBXNativeTarget "CoreMLTestGrades" */;
+			buildPhases = (
+				CAB836F52808F7C500D14384 /* Sources */,
+				CAB836F62808F7C500D14384 /* Frameworks */,
+				CAB836F72808F7C500D14384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreMLTestGrades;
+			productName = CoreMLTestGrades;
+			productReference = CAB836F92808F7C500D14384 /* CoreMLTestGrades.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAB837082808F7C600D14384 /* CoreMLTestGradesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB837202808F7C600D14384 /* Build configuration list for PBXNativeTarget "CoreMLTestGradesTests" */;
+			buildPhases = (
+				CAB837052808F7C600D14384 /* Sources */,
+				CAB837062808F7C600D14384 /* Frameworks */,
+				CAB837072808F7C600D14384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAB8370B2808F7C600D14384 /* PBXTargetDependency */,
+			);
+			name = CoreMLTestGradesTests;
+			productName = CoreMLTestGradesTests;
+			productReference = CAB837092808F7C600D14384 /* CoreMLTestGradesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAB837122808F7C600D14384 /* CoreMLTestGradesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB837232808F7C600D14384 /* Build configuration list for PBXNativeTarget "CoreMLTestGradesUITests" */;
+			buildPhases = (
+				CAB8370F2808F7C600D14384 /* Sources */,
+				CAB837102808F7C600D14384 /* Frameworks */,
+				CAB837112808F7C600D14384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAB837152808F7C600D14384 /* PBXTargetDependency */,
+			);
+			name = CoreMLTestGradesUITests;
+			productName = CoreMLTestGradesUITests;
+			productReference = CAB837132808F7C600D14384 /* CoreMLTestGradesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAB836F12808F7C500D14384 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					CAB836F82808F7C500D14384 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					CAB837082808F7C600D14384 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = CAB836F82808F7C500D14384;
+					};
+					CAB837122808F7C600D14384 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = CAB836F82808F7C500D14384;
+					};
+				};
+			};
+			buildConfigurationList = CAB836F42808F7C500D14384 /* Build configuration list for PBXProject "CoreMLTestGrades" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAB836F02808F7C500D14384;
+			productRefGroup = CAB836FA2808F7C500D14384 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAB836F82808F7C500D14384 /* CoreMLTestGrades */,
+				CAB837082808F7C600D14384 /* CoreMLTestGradesTests */,
+				CAB837122808F7C600D14384 /* CoreMLTestGradesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAB836F72808F7C500D14384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB837042808F7C600D14384 /* Preview Assets.xcassets in Resources */,
+				CAB837012808F7C600D14384 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB837072808F7C600D14384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB837112808F7C600D14384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAB836F52808F7C500D14384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB837312809039100D14384 /* GradesPredicter2.mlmodel in Sources */,
+				CAB83735280907C700D14384 /* GradesPredicter1.mlmodel in Sources */,
+				CA491975280C7D6800829B05 /* IBGradesPredicter3.mlmodel in Sources */,
+				CA49196C280BABD900829B05 /* IBGradesPredicter1.mlpackage in Sources */,
+				CAB8372F2808F8CB00D14384 /* ViewModel.swift in Sources */,
+				CAB836FF2808F7C500D14384 /* MyGrades.swift in Sources */,
+				CAB8372D2808F8C100D14384 /* Grade.swift in Sources */,
+				CAB8372B2808F8A900D14384 /* GradesPredicter.mlmodel in Sources */,
+				CAB836FD2808F7C500D14384 /* CoreMLTestGradesApp.swift in Sources */,
+				CAB8373728090D6900D14384 /* GradesPredicter1-1.mlmodel in Sources */,
+				CA491966280BAA7100829B05 /* IBGrades.swift in Sources */,
+				CAB837332809052400D14384 /* GradesPredicter3.mlmodel in Sources */,
+				CA491978280CCA1200829B05 /* IBGradesPredicter6.mlmodel in Sources */,
+				CA491973280C7D6800829B05 /* IBGradesPredicter2.mlmodel in Sources */,
+				CA491974280C7D6800829B05 /* IBGradesPredicter4.mlmodel in Sources */,
+				CA491976280C7D6800829B05 /* IBGradesPredicter5.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB837052808F7C600D14384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB8370E2808F7C600D14384 /* CoreMLTestGradesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB8370F2808F7C600D14384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB8371A2808F7C600D14384 /* CoreMLTestGradesUITestsLaunchTests.swift in Sources */,
+				CAB837182808F7C600D14384 /* CoreMLTestGradesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAB8370B2808F7C600D14384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAB836F82808F7C500D14384 /* CoreMLTestGrades */;
+			targetProxy = CAB8370A2808F7C600D14384 /* PBXContainerItemProxy */;
+		};
+		CAB837152808F7C600D14384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAB836F82808F7C500D14384 /* CoreMLTestGrades */;
+			targetProxy = CAB837142808F7C600D14384 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CAB8371B2808F7C600D14384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAB8371C2808F7C600D14384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAB8371E2808F7C600D14384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoreMLTestGrades/Preview Content\"";
+				DEVELOPMENT_TEAM = 767V5JNG6F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = garfias.CoreMLTestGrades;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAB8371F2808F7C600D14384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoreMLTestGrades/Preview Content\"";
+				DEVELOPMENT_TEAM = 767V5JNG6F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = garfias.CoreMLTestGrades;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAB837212808F7C600D14384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 767V5JNG6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = garfias.CoreMLTestGradesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreMLTestGrades.app/CoreMLTestGrades";
+			};
+			name = Debug;
+		};
+		CAB837222808F7C600D14384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 767V5JNG6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = garfias.CoreMLTestGradesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreMLTestGrades.app/CoreMLTestGrades";
+			};
+			name = Release;
+		};
+		CAB837242808F7C600D14384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 767V5JNG6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = garfias.CoreMLTestGradesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoreMLTestGrades;
+			};
+			name = Debug;
+		};
+		CAB837252808F7C600D14384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 767V5JNG6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = garfias.CoreMLTestGradesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoreMLTestGrades;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAB836F42808F7C500D14384 /* Build configuration list for PBXProject "CoreMLTestGrades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB8371B2808F7C600D14384 /* Debug */,
+				CAB8371C2808F7C600D14384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB8371D2808F7C600D14384 /* Build configuration list for PBXNativeTarget "CoreMLTestGrades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB8371E2808F7C600D14384 /* Debug */,
+				CAB8371F2808F7C600D14384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB837202808F7C600D14384 /* Build configuration list for PBXNativeTarget "CoreMLTestGradesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB837212808F7C600D14384 /* Debug */,
+				CAB837222808F7C600D14384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB837232808F7C600D14384 /* Build configuration list for PBXNativeTarget "CoreMLTestGradesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB837242808F7C600D14384 /* Debug */,
+				CAB837252808F7C600D14384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAB836F12808F7C500D14384 /* Project object */;
+}
